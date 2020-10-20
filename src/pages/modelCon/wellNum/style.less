@@ -1,0 +1,166 @@
+.contentWrap {
+  min-height: 625px;
+  height: max-content;
+  box-shadow: 1px 0.5px 4px #001529;
+  width: 100%;
+  display: flex;
+
+  .leftPart {
+    width: 68%;
+
+    .innerMap {
+      height: 100%;
+      width: 100%;
+      z-index: 1;
+      display: none;
+      // border: 1px solid #61E5FF;
+    }
+
+    .pouImg {
+      width: 60%;
+      margin-left: 13%;
+    }
+
+    .formWrap {
+      width: 64%;
+      border: 1px solid;
+      margin: auto;
+      margin-top: 13%;
+      border-bottom: none;
+      display: none;
+      .itemBox {
+        display: flex;
+        border-bottom: 1px solid;
+        text-align: center;
+        padding: 5px;
+        div {
+          width: 50%;
+        }
+        .needBorder {
+          border-right: 1px solid;
+        }
+      }
+    }
+
+    .report {
+      display: none;
+      justify-content: space-between;
+      width: 95%;
+      margin: auto;
+      margin-top: 25px;
+
+      .reportBtn {
+        padding: 5px 14px;
+        background: #f5af33;
+        color: #fff;
+        cursor: pointer;
+        font-size: 20px;
+        border-radius: 5px;
+        height: 41px;
+      }
+
+      .paperBox {
+        width: 85%;
+        .reportBox {
+          border: 1px solid;
+          height: 750px;
+          overflow-y: auto;
+          width: 93%;
+          .topPart {
+            width: 100%;
+            .reportTitle {
+              border-bottom: 1px solid;
+              text-align: center;
+              font-size: 30px;
+              font-weight: 600;
+            }
+            .itwmWrap {
+              display: flex;
+              height: 20%;
+              border-bottom: 1px solid;
+              .content {
+                display: flex;
+                width: 70%;
+                // border-right: 1px solid;
+                .leftPart {
+                  width: 100%;
+                  border-right: 1px solid;
+                  .eveyItem {
+                    display: flex;
+                    border-bottom: 1px solid;
+                    .title {
+                      border-right: 1px solid;
+                      width: 50%;
+                      text-align: center;
+                      padding: 5px 0;
+                    }
+                    .titleContent {
+                      width: 50%;
+                      text-align: center;
+                      padding: 5px 0;
+                    }
+                  }
+                }
+                // .rightPart{
+                //   width: 50%;
+                // }
+              }
+              .logoWrap {
+                width: 30%;
+              }
+            }
+          }
+          .midlePart {
+          }
+          .bottomPart {
+          }
+        }
+      }
+    }
+  }
+
+  .rightPart {
+    width: 32%;
+    box-shadow: -1px 0px 2px #001529;
+
+    .title {
+      display: flex;
+      width: 94%;
+      margin: auto;
+      justify-content: space-between;
+      margin-top: 10px;
+      border-bottom: 1px solid;
+
+      .titleText {
+        font-size: 16px;
+        line-height: 38px;
+      }
+    }
+
+    .fileName {
+      font-size: 16px;
+      width: 94%;
+      margin: auto;
+      margin-top: 10px;
+    }
+
+    .itemWrap {
+      display: flex;
+      width: 94%;
+      margin: auto;
+      margin-top: 10px;
+
+      div {
+        font-size: 16px;
+      }
+
+      input {
+        outline: none;
+        border: transparent;
+        border-radius: 5px;
+        padding: 0 10px;
+        width: 200px;
+      }
+    }
+  }
+}
